@@ -223,3 +223,14 @@ textarea {
   font: inherit; /* 2 */
 }
 
+html {
+  font-size: 1.25em; /*20px/16 */
+  line-height: 1.25em;
+  background-image: url("/images/logo.jpeg");
+}
+label {
+  display: block;
+}
+
+
+
