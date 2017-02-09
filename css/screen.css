@@ -225,11 +225,33 @@ textarea {
 
 html {
   font-size: 1.25em; /*20px/16 */
+  color: #1a0013;
   line-height: 1.25em;
-  background-image: url("/images/logo.jpeg");
+  background-image: url('../images/logo.jpeg');
+  text-align: center;
+  background-color: black;
+  background-size: cover;
 }
 label {
   display: block;
+}
+
+h1 {
+  font-size: 1.8em;
+  line-height: 2.3em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#name-input, li {
+  padding-top: 1em;
+}
+
+#about h2 {
+  padding-bottom: 1em;
+}
+h2 {
+  font-size: 1.5em;
+  padding-top: 1em;
 }
 
 
