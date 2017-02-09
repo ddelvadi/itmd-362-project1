@@ -231,15 +231,21 @@ html {
   text-align: center;
   background-color: black;
   background-size: cover;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 label {
   display: block;
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 2.3em;
   line-height: 2.3em;
+  color: white;
+}
+
+#slogan {
   font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
 }
 
 #name-input, li {
@@ -247,12 +253,13 @@ h1 {
 }
 
 #about h2 {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 h2 {
   font-size: 1.5em;
   padding-top: 1em;
 }
+
 
 
 
