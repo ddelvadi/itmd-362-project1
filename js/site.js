@@ -21,6 +21,15 @@ document.addEventListener('DOMContentLoaded', function() {
   	if (nameValue==='' || lastnameValue==='' || emailValue==='') {
       alert('One or more inputs cannot be empty');
   	}
+
+  	email.addEventListener("keyup", function (event) {
+  	  if (email.validity.typeMismatch) {
+    	email.setCustomValidity("Please enter valid email");
+  	  } 
+  	  else {
+    	email.setCustomValidity("");
+  	  }
+	});
   }
   submit.addEventListener('click', submitClick, false);
 }, false);
