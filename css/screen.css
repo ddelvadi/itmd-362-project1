@@ -247,6 +247,10 @@ h2 {
   padding-top: 0.78em;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 #sign-up {
   height: 100%;
   width: 100%;
@@ -282,9 +286,39 @@ input[type="submit"] {
   border-radius: 0.5em;
 }
 
-input[type="submit"]:hover {
-  background-color: rgba(99, 145, 145, 0.3);
-  padding: 0.5em 1.4em;
+
+@media screen and (min-width: 28.75em) {
+  html {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+
+  input[type="submit"]:hover {
+    background-color: rgba(99, 145, 145, 0.3);
+    padding: 0.5em 1.4em;
+  }
 }
+
+@media screen and (min-width: 76.5em) {
+  html {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  input[type="submit"]:hover {
+    background-color: rgba(99, 145, 145, 0.3);
+    padding: 0.5em 1.4em;
+  }
+
+  #sign-up {
+  height: 100%;
+  width: 40%;
+  background-color: rgba(140, 149, 140 ,0.1);
+  text-align: center;
+  margin-top: 1.2em;
+  margin-left: 30%;
+  }
+}
+
 
 
